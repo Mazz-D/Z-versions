@@ -1,22 +1,40 @@
-box-sizing{
-    
+body{
+    box-sizing: border-box;
+}
+ul {
+    text-decoration: none;
 }
 
-.pos{
-    width: auto;
-    height: 2em;
+li{
+    text-decoration: none;
 }
 
-
-.card{
-    background-color: white;
+.top-bar{
+    border: 2px solid red;
+    display: flex;
+    align-items: flex-end;
 }
 
-.inner-bar{
-    width: 50%;
-    height: 2.3em;
-    margin: 250px auto;
-    border: 3px solid red;
-    border-radius: 10em;
-    background: white;
-}
+.top-bar-items{}
+
+.main-font{}
+
+.font{}
+
+.search-bar{}
+
+.input-icons{}
+
+.search-go{}
+
+.language{}
+
+.language-selection{}
+
+.language-option{}
+
+.footer{}
+
+.footer-1{}
+
+.footer-2{}
